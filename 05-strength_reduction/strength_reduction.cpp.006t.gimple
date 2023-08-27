@@ -1,0 +1,9 @@
+unsigned int divido_32 (unsigned int x)
+{
+  unsigned int D.2349;
+
+  D.2349 = x / 32;
+  return D.2349;
+}
+
+

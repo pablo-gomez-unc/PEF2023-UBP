@@ -1,0 +1,32 @@
+int main ()
+{
+  int D.2355;
+
+  {
+    const int C;
+    int s;
+
+    C = 1024;
+    s = 0;
+    {
+      unsigned int i;
+
+      i = 0;
+      goto <D.2354>;
+      <D.2353>:
+      s.0_1 = (unsigned int) s;
+      _2 = i + s.0_1;
+      s = (int) _2;
+      i = i + 1;
+      <D.2354>:
+      if (i <= 1023) goto <D.2353>; else goto <D.2351>;
+      <D.2351>:
+    }
+    D.2355 = s;
+    return D.2355;
+  }
+  D.2355 = 0;
+  return D.2355;
+}
+
+
