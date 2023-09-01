@@ -1,4 +1,3 @@
-
 int main () {
 int j,k,m,n;
     while (j<n) {
