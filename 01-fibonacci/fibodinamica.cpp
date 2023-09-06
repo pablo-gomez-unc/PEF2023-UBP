@@ -3,12 +3,11 @@
 #include <vector>
 #include <cstdint>
 
-
 __uint128_t fibonacci(int n, std::vector<__uint128_t>& memo) {
     if (n <= 1) {
         return n;
     }
-    if (memo[n] != -1) {
+    if (memo[n] > 0) {
         return memo[n];
     }
     memo[n] = fibonacci(n - 1, memo) + fibonacci(n - 2, memo);
@@ -20,8 +19,8 @@ int main() {
     std::cout << "Ingrese el valor de n: ";
     std::cin >> n;
 
-    std::vector<__uint128_t> memo(n + 1, -1);
-
+    std::vector<__uint128_t> memo(n + 1, 0);
+    
     auto start = std::chrono::high_resolution_clock::now();
 
     __uint128_t result = fibonacci(n, memo);
