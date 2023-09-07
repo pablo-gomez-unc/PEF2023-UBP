@@ -33,7 +33,6 @@ int main(int argc, char* args[]) {
         return 1;
     }
 
-
     // Inicializar las posiciones de los rectángulos
     Rectangle rectangles[NUM_RECTANGLES];
     for (int i = 0; i < NUM_RECTANGLES; i++) {
