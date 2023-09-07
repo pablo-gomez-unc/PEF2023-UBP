@@ -1,0 +1,14 @@
+{
+"version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++ Launch/Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/a.out",
+            "args": ["arg1", "arg2"],
+            "environment": [{ "name": "config", "value": "Debug" }],
+            "cwd": "${fileDirname}"
+        }
+    ]
+}

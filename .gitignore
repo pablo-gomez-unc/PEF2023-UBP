@@ -3,4 +3,3 @@
 *.o
 *.s
 *.gimple
-.vscode
