@@ -35,7 +35,7 @@ function _Z11cargarArrayIfEvPT_i called 16 returned 100% blocks executed 100%
   4444016:   22-block  1
 branch  0 taken 4444000
 branch  1 taken 16 (fallthrough)
-  4444000:   23:        array[i] = rand()/float(RAND_MAX)  ;
+  4444000:   23:        array[i] = rand()/float(RAND_MAX);
   4444000:   23-block  0
 call    0 returned 4444000
         -:   24:    }
@@ -49,7 +49,7 @@ function main called 1 returned 100% blocks executed 91%
         5:   28-block  2
 branch  0 taken 4
 branch  1 taken 1 (fallthrough)
-       4*:   29:        float* A = new float[arrayLength];
+       4*:   29:        auto* A = new float[arrayLength];
         4:   29-block  0
 branch  0 taken 4 (fallthrough)
 branch  1 taken 0
@@ -60,7 +60,7 @@ call    2 never executed
 call    3 returned 4
 branch  4 taken 4 (fallthrough)
 branch  5 taken 0 (throw)
-       4*:   30:        float* B = new float[arrayLength];
+       4*:   30:        auto* B = new float[arrayLength];
         4:   30-block  0
 branch  0 taken 4 (fallthrough)
 branch  1 taken 0
@@ -71,7 +71,7 @@ call    2 never executed
 call    3 returned 4
 branch  4 taken 4 (fallthrough)
 branch  5 taken 0 (throw)
-       4*:   31:        float* C = new float[arrayLength];
+       4*:   31:        auto* C = new float[arrayLength];
         4:   31-block  0
 branch  0 taken 4 (fallthrough)
 branch  1 taken 0
@@ -82,7 +82,7 @@ call    2 never executed
 call    3 returned 4
 branch  4 taken 4 (fallthrough)
 branch  5 taken 0 (throw)
-       4*:   32:        float* D = new float[arrayLength];
+       4*:   32:        auto* D = new float[arrayLength];
         4:   32-block  0
 branch  0 taken 4 (fallthrough)
 branch  1 taken 0
