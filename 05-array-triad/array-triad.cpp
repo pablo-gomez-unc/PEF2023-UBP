@@ -8,7 +8,7 @@ using namespace std::chrono;
 
 const int numIterations = 1000;
 const int minArrayLength = 1000;
-const int maxArrayLength = 1000000;
+const int maxArrayLength = 10000000;
 
 template <typename T>
 void processArray(T* A, T* B, T* C, T* D, int length) {
