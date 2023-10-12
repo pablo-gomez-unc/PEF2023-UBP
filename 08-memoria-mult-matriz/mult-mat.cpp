@@ -24,6 +24,12 @@ void imprimir (int **M , int f , int c){
     cout << endl;
 }
 
+void freeMatriz (int **M, int f) {
+    for (int i=0 ; i<f; i++){
+        delete [] M[i];
+    }
+}
+
 int main (int argc, char* argv[]){
     int n = atoi(argv[1]);
     int m = atoi(argv[2]);
@@ -44,6 +50,14 @@ int main (int argc, char* argv[]){
             R [i][j] = suma;
         }   
     }
+
+    freeMatriz (A,n) ;
+    freeMatriz (B,m) ;
+    freeMatriz (R,n) ;
+    
+    delete[] A;
+    delete[] B;
+    delete[] R;
 
     //imprimir (R, n, m) ;
 }
