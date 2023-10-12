@@ -1,5 +1,7 @@
-*.out
-*.exe
-*.o
-*.s
-*.gimple
+**/*.out
+**/*.exe
+**/*.o
+**/*.s
+**/*.gimple
+**/build
+**/.vscode
