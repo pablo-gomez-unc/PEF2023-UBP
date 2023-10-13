@@ -5,3 +5,4 @@
 **/*.gimple
 **/build
 **/.vscode
+**/.idea
