@@ -8,5 +8,6 @@
 **/*.s
 **/*.gimple
 **/build
-**/.vscode
-**/.idea
+**/.idea/
+**/.vscode/
+.vscode/tasks.json
