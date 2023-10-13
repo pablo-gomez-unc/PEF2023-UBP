@@ -5,4 +5,4 @@
 **/*.gimple
 **/build
 **/.vscode
-**/*cachegrind.out*
+**/.idea
