@@ -11,3 +11,7 @@
 **/.idea/
 **/.vscode/
 .vscode/tasks.json
+**/cmake-build*
+**/cmake_install*
+**/CMakeCache*
+**/Makefile
