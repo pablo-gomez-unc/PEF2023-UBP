@@ -1,15 +1,15 @@
 #include <iostream>
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 const int SCREEN_WIDTH = 800;
 const int SCREEN_HEIGHT = 600;
 const int RECTANGLE_WIDTH = 50;
 const int RECTANGLE_HEIGHT = 50;
 const int NUM_RECTANGLES = 5;
-const int VELOCITY = 1;
+const float VELOCITY = 0.1;
 
 struct Rectangle {
-    int x, y;
+    float x, y;
 };
 
 int main(int argc, char* args[]) {
